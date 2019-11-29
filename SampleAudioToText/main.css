@@ -1,0 +1,21 @@
+.main-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* Overwrite default styling from PCF to show and enable input */
+/* Comment for real environment scenario */
+.audio-input{
+    opacity: 1 !important;
+    position: relative !important;
+    pointer-events: all !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.result-area{
+    width: 90%;
+    height: 50px;
+}

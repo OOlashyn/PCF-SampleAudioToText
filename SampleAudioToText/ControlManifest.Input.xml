@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="dancingwithcrm" constructor="SampleAudioToText" version="1.0.0" display-name-key="SampleAudioToText" description-key="SampleAudioToText component" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="PlaceHolderField" display-name-key="PlaceHolder Field" description-key="Field to serve as a placeholder" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="main.css" order="1"/>
+    </resources>
+    <feature-usage>
+      <uses-feature name="Device.pickFile" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
