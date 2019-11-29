@@ -6,7 +6,6 @@
 }
 
 /* Overwrite default styling from PCF to show and enable input */
-/* Comment for real environment scenario */
 .audio-input{
     opacity: 1 !important;
     position: relative !important;
